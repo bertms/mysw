@@ -8,6 +8,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
     '/mysw/',
+    '/mysw/index.html',
     '/mysw/css/style.css',
     '/mysw/images/2.jpg'
 ];
