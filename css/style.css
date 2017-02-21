@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-02-21 14:54:35
+ * @version $Id$
+ */
+
+body {
+    font-family: "微软雅黑", "宋体", Arial;
+    font-size: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    background-color: #2bb5dd;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.imglist {
+    width: 450px;
+    margin: 30px auto auto auto;
+    overflow: hidden;
+}
+
+.imglist li {
+    float: left;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    background: url(../images/2.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
