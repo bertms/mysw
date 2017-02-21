@@ -10,7 +10,6 @@ this.addEventListener('install', event => {
     event.waitUntil(
         caches.open(currentCache.offline).then(function(cache) {
             return cache.addAll([
-                'index.html',
                 'images/3.png',
                 'images/4.jpg',
                 'images/5.jpg',
