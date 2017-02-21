@@ -1,28 +1,23 @@
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2017-02-21 14:28:16
- * @version $Id$
- */
-// The files we want to cache
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [
-    '/',
-    '/mysw/',
-    '/mysw/index.html',
-    '/mysw/css/style.css',
-    '/mysw/images/2.jpg'
-];
-
-// Set the callback for the install step
-self.addEventListener('install', function(event) {
-    // Perform install steps
-    console.log(312312);
-    event.waitUntil(
-        caches.open(CACHE_NAME)
-        .then(function(cache) {
-            console.log('Opened cache');
-            return cache.addAll(urlsToCache);
-        })
-    );
+this.addEventListener('fetch', event => {
+    // request.mode = navigate isn't supported in all browsers
+    // request.mode = naivgate 并没有得到所有浏览器的支持
+    // so include a check for Accept: text/html essay-header.
+    // 因此对 essay-header 的 Accept：text/html 进行核实
+    if (event.request.mode === 'navigate' || (event.request.method === 'GET' && event.request.essay - headers.get('accept').includes('text/html'))) {
+        event.respondWith(
+            fetch(event.request.url).catch(error => {
+                // Return the offline page
+                // 返回离线页面
+                return caches.match(offlineUrl);
+            })
+        );
+    } else {
+        // Respond with everything else if we can
+        // 返回任何我们能返回的东西
+        event.respondWith(caches.match(event.request)
+            .then(function(response) {
+                return response || fetch(event.request);
+            })
+        );
+    }
 });
