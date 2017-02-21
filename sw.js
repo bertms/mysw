@@ -7,6 +7,7 @@
 // The files we want to cache
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
+    '/',
     '/mysw/',
     '/mysw/index.html',
     '/mysw/css/style.css',
@@ -16,6 +17,7 @@ var urlsToCache = [
 // Set the callback for the install step
 self.addEventListener('install', function(event) {
     // Perform install steps
+    console.log(312312);
     event.waitUntil(
         caches.open(CACHE_NAME)
         .then(function(cache) {
