@@ -40,9 +40,8 @@ this.addEventListener('fetch', event => {
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-    '/',
     '/mysw/',
-    '/mysw/index.html',
+    //'/mysw/index.html',
 ];
 
 self.addEventListener('install', function(event) {
