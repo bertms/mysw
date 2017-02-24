@@ -1,4 +1,3 @@
-/*
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
     '/mysw/',
@@ -15,7 +14,7 @@ self.addEventListener('install', function(event) {
         })
     );
 });
-*/
+
 
 /*
 self.addEventListener('fetch', function(event) {
