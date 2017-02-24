@@ -1,7 +1,6 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-    '/mysw/',
-    //'/mysw/index.html', //配置指定需要缓存的文件.
+    '/mysw/'
 ];
 
 self.addEventListener('install', function(event) {
@@ -11,7 +10,6 @@ self.addEventListener('install', function(event) {
         .then(function(cache) {
             console.log('Opened cache');
             return cache.addAll(urlsToCache);
-            //3432
         })
     );
 });
@@ -34,7 +32,7 @@ self.addEventListener('fetch', function(event) {
 
 
 
-/*
+
 self.addEventListener('activate', function(event) {
 
     var cacheWhitelist = ['pages-cache-v1', 'blog-posts-cache-v1'];
@@ -51,4 +49,3 @@ self.addEventListener('activate', function(event) {
         })
     );
 });
-*/
