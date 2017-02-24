@@ -15,7 +15,9 @@ self.addEventListener('install', function(event) {
         })
     );
 });
+*/
 
+/*
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request)
@@ -30,6 +32,9 @@ self.addEventListener('fetch', function(event) {
     );
 });
 
+*/
+
+/*
 self.addEventListener('activate', function(event) {
 
     var cacheWhitelist = ['pages-cache-v1', 'blog-posts-cache-v1'];
