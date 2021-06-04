@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## Special statement:
 
-You can use the [editor on GitHub](https://github.com/bertms/mysw/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+* Any unlocking and decryption analysis scripts involved in the Script project released by this warehouse are only used for testing, learning and research, and are forbidden to be used for commercial purposes. Their legality, accuracy, completeness and effectiveness cannot be guaranteed. Please make your own judgment based on the situation. .
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* All resource files in this project are forbidden to be reproduced or published in any form by any official account or self-media.
 
-### Markdown
+* This warehouse is not responsible for any script problems, including but not limited to any loss or damage caused by any script errors.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Any user who indirectly uses the script, including but not limited to establishing a VPS or disseminating it when certain actions violate national/regional laws or related regulations, this warehouse is not responsible for any privacy leakage or other consequences caused by this.
 
-```markdown
-Syntax highlighted code block
+* Do not use any content of the Script project for commercial or illegal purposes, otherwise you will be responsible for the consequences.
 
-# Header 1
-## Header 2
-### Header 3
+* If any unit or individual believes that the script of the project may be suspected of infringing on their rights, they should promptly notify and provide proof of identity and ownership. We will delete the relevant script after receiving the certification document.
 
-- Bulleted
-- List
+* Anyone who views this item in any way or directly or indirectly uses any script of the Script item should read this statement carefully. This warehouse reserves the right to change or supplement this disclaimer at any time. Once you have used and copied any relevant scripts or rules of the Script project, you are deemed to have accepted this disclaimer.
 
-1. Numbered
-2. List
+ **You must completely delete the above content from your computer or mobile phone within 24 hours after downloading.**  </br>
+> ***You have used or copied any script made by yourself in this warehouse, it is deemed to have accepted this statement, please read it carefully*** 
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## Special thanks to:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+* [@NobyDa](https://github.com/NobyDa)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bertms/mysw/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* [@chavyleung](https://github.com/chavyleung)
 
-### Support or Contact
+* [@liuxiaoyucc](https://github.com/liuxiaoyucc)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* [@Zero-S1](https://github.com/Zero-S1)
+
+* [@uniqueque](https://github.com/uniqueque)
+
+* [@nzw9314](https://github.com/nzw9314)
